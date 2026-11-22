@@ -1,3 +1,8 @@
+[buck2]
+  share_daemon = true
+  defer_write_actions = true
+  sqlite_materializer_state = true
+
 [cells]
   root = .
   prelude = prelude
